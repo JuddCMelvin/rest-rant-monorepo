@@ -7,6 +7,9 @@ function CurrentUserProvider({ children }){
 
     const [currentUser, setCurrentUser] = useState(null)
 
+    //window.setCurrentUser = setCurrentUser;
+    // setCurrentUser({firstName:'Cody',lastName:'Nicholson2'});
+
     return (
         <CurrentUser.Provider value={{ currentUser, setCurrentUser }}>
             {children}
