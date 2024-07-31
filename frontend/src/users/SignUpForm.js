@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useHistory, useParams } from "react-router"
 
 function SignUpForm() {
